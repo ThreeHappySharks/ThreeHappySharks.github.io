@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="./lending.html"><img src="../img/dubna.png" alt="Логотип" width="80"></a>
+            <ul class = "menu">
+                <li><a href="./lending.html">О себе</a></li>
+                <li><a href="./summary.html">Резюме</a></li>
+                <li><a href="./portfolio.html">Портфолио</a></li>
+                <li><a href="./competention.html">Компетенции</a></li>
+                <li><a href="./contacts.html">Контакты</a></li>
+                <li><a href="./js.html">Задания JS</a></li>
+            </ul>
+        </nav>
+
+        <h1>Веб-технологии</h1>
+        <h3>Университет "Дубна"</h3>
+
+    </header>
+
+    <article>
+
+        <div class="block_cont">
+            <div class="block_cont_style">
+                <h3>Я в социальных сетях:</h3>
+                <div>
+                    <a href="https://vk.com/mikula_akula"><img src="../img/vk.png" alt="Вконтакте" width="50"></a>
+                    <a href="https://www.instagram.com/mikula_akula/"><img src="../img/instagam.png" alt="Instagram" width="50"></a>
+                    <img src="../img/telegram.png" alt="Telegram" width="50">
+                </div>
+            </div>
+    
+            <div class="block_cont_style">
+                <h3>Почта:</h3>
+                <p>ksy.mikula@mail.ru</p>
+            </div>
+    
+            <div class="block_cont_style">
+                <h3>Телефон:</h3>
+                <p>8(912)117-19-18</p>
+            </div>
+        </div>
+        
+
+        <form action="mailto:ksy.mikula@mail.ru" enctype="text/plain">
+            
+            <div class = "form-main">
+
+                <div class = "form-element0">
+                    <legend>Есть вопрос?</legend>
+                </div>
+
+                <div class = "form-element1">
+                    <label for="answer">Как Вам удобно получить ответ?</label><br>
+                    <label for="radio_mail"><input type="radio" name="com_tion" id="radio_mail"> по почте</label><br>
+                    <label for="radio_tel"><input type="radio" name="com_tion" id="radio_tel"> по телефону</label><br>
+                    <label for="radio_none"><input type="radio" name="com_tion" id="radio_none"> не нужно отвечать</label>
+                </div>
+
+                <div class = "form-element2">
+                    <label for="theme">Укажите тему вопроса:</label>
+                    <select id="theme">
+                        <option>работа</option>
+                        <option>сотрудничество</option>
+                        <option>личный вопрос</option>
+                    </select>
+                </div>
+
+                <div class = "form-element3">
+                    <label>И еще один вопрос?</label><br>
+                    <label for="chb1"><input type="checkbox" name="chb1" id="chb1">может так</label><br>
+                    <label for="chb2"><input type="checkbox" name="chb2" id="chb2">или не так</label><br>
+                    <label for="chb3"><input type="checkbox" name="chb3" id="chb3">иначе</label>
+                </div>
+
+                <div class = "form-element4_1">
+                    <label for="name">Имя</label>                    
+                </div>
+
+                <div class = "form-element4_2">
+                    <input type="text" id="name" placeholder="Имя">
+                </div>
+
+                <div class = "form-element5_1">
+                    <label for="email">E-mail</label>
+                </div>
+                
+                <div class = "form-element5_2">
+                    <input type="email" id="email" placeholder="xxx@mail.ru">
+                </div>
+
+                <div class = "form-element6_1">
+                    <label for="tel">Телефон</label>
+                </div>
+
+                <div class = "form-element6_2">
+                    <input type="tel" id="tel" placeholder="+79001234567">
+                </div>
+                
+                <div class = "form-element7">
+                    <label for="message">Ваш вопрос:</label><br>
+                    <textarea id="message" cols="40" rows="5"></textarea>
+                </div>
+                
+                <div class = "form-element8">
+                    <input type="submit" value="Отправить">
+                </div>
+
+            </div>
+
+        </form>
+
+    </article>
+
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/mikula_akula/"><img src="../img/instagam.png" alt="Instagram" width="50"></a>
+            <a href="https://github.com/mikula-akula"><img src="../img/github.png" alt="GitHub" width="50"></a>
+            <a href="https://vk.com/mikula_akula"><img src="../img/vk.png" alt="Вконтакте" width="50"></a>
+        </div>
+        <p>Сайт разработан Микула Ксенией, Copyright &copy; 2021</p>
+    </footer>
+    
+</body>
+
+</html>
