@@ -1,0 +1,336 @@
+/* manrope-regular - latin_cyrillic */
+@font-face 
+{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/manrope-v4-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+        url('../fonts/manrope-v4-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/manrope-v4-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/manrope-v4-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/manrope-v4-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/manrope-v4-latin_cyrillic-regular.svg#Manrope') format('svg'); /* Legacy iOS */
+}
+
+header
+{
+  text-align: center;
+  height: 300px;
+  background-image: url(../img/background9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #020305;
+  color:whitesmoke;
+  
+}
+
+body
+{
+  margin: 0;
+  padding: 0;  
+  font-family: "Manrope";
+}
+
+footer
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+footer div
+{
+  flex-grow: 1;
+}
+
+footer p
+{
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav 
+{
+  display: flex;
+  background: rgb(14, 13, 13);
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+nav:first 
+{
+  flex-grow: 1;
+}
+
+.menu
+{
+  list-style: none;
+  text-align: right;
+  flex-grow: 1;
+}
+
+.menu li
+{
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+}
+
+.menu li:before 
+{
+  content: "| ";
+  font-size: 23px;
+  color: rgb(248, 135, 90);
+}
+
+.menu a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: white;
+}
+
+.menu a:hover 
+{
+  text-decoration: underline;
+}
+
+#comp_block_1
+{
+  background: white;
+  min-height: 250px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: black;
+  display: flex;  
+}
+
+#comp_block_1_1
+{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#comp_block_2
+{
+  background: rgb(14, 13, 13);
+  min-height: 250px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+
+#comp_block_2_1
+{
+  display: flex;
+  justify-content: center;
+}
+
+#comp_block_3
+{
+  background: white;
+  min-height: 250px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#comp_block_3_1
+{
+  display:flex;
+  flex-direction: row;
+}
+
+#comp_block_4
+{
+  background-color: rgb(14, 13, 13);
+  min-height: 250px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comp_wrapper
+{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.block_cont_style
+{
+  margin: 20px;
+  padding: 15px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  text-align: center;
+  width: 300px;
+}
+
+.block_cont
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.block_port
+{
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: solid rgb(41, 131, 138);
+  padding: 10px;
+}
+
+table
+{
+  border-collapse: collapse;
+  border: 2px solid black;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+th, td 
+{
+  border: 1px solid rgb(41, 131, 138);
+  padding: 10px;
+}
+
+th
+{
+  background: black;
+  color: white;
+}
+
+table ul
+{
+  list-style-type: circle;
+}
+
+.form-main
+{
+  display: grid;
+  margin: 10px auto;
+  width: 450px;
+  height: 650px;
+  grid-template-areas:
+  "area0 area0"
+  "area1 area1"
+  "area2 area2"
+  "area3 area3"
+  "area4 area5"
+  "area6 area7"
+  "area8 area9"
+  "area10 area10"
+  "area11 area11";
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+form input
+{
+  padding: 2px 7px ;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 3px;
+}
+
+form select
+{
+  padding: 2px 7px ;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 3px;
+}
+
+form textarea
+{
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 3px;
+}
+
+.form-element0
+{
+  grid-area: area0;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.form-element1
+{
+  grid-area: area1;
+  margin-left: 65px;
+
+}
+
+.form-element2
+{
+  grid-area: area2;
+  margin-left: 65px;
+}
+
+.form-element3
+{
+  grid-area: area3;
+  margin-left: 65px;
+}
+
+.form-element4_1
+{
+  grid-area: area4;
+  margin-left: 65px;
+}
+
+.form-element4_2
+{
+  grid-area: area5;
+}
+
+.form-element5_1
+{
+  grid-area: area6;
+  margin-left: 65px;
+}
+
+.form-element5_2
+{
+  grid-area: area7;
+}
+
+.form-element6_1
+{
+  grid-area: area8;
+  margin-left: 65px;
+}
+
+.form-element6_2
+{
+  grid-area: area9;
+}
+
+.form-element7
+{
+  grid-area: area10;
+  margin-left: 65px;
+}
+
+.form-element8
+{
+  grid-area: area11;
+  margin: 0 auto;
+}
